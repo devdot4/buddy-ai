@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='shortcut icon' type='image/x-icon' href='/images/favicon.ico' />
+    <link rel='icon' type='image/x-icon' href='/images/favicon.ico' />
+    <link rel='stylesheet' href='/stylesheets/uikit.min.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class='splash'>
+      <h1><%= title %></h1>
+    </div>
+    <div id='mood' class='splash' style='display:show'>
+      <p>Welcome to <%= title %>! How are you feeling today?</p>
+      <button class='uk-button' type='button' id='btn1'><span class="emoji">😄</span> Happy</button>
+      <button class='uk-button' type='button' id='btn2'><span class="emoji">😐</span> Neutral</button>
+      <button class='uk-button' type='button' id='btn3'><span class="emoji">😢</span> Sad</button>
+    </div><br><br>
+    <div id='chat' class='splash' style='display:none'>
+      <p>Type what you must...</p><br>
+      <input class='uk-search' type='text' name='' value='write here'><br><br>
+      <button class='uk-button uk-button-primary' type='button' name='button'>Send</button>
+    </div>
+    <script src='/javascripts/jquery-3.2.1.min.js'></script>
+    <script src='/javascripts/uikit.min.js'></script>
+    <script src='/javascripts/uikit-icons.min.js'></script>
+    <script src='/javascripts/script.js'></script>
+  </body>
+</html>
