@@ -2,10 +2,8 @@
 <html>
 
 <head>
-  <title>
-    <%= title %>
-  </title>
   <meta charset="utf-8">
+  <title><%= title %></title>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="bud;Dy is a helpful companion.">
@@ -21,11 +19,13 @@
   </div>
 
   <div id='mood' class='splash' style='display:show'>
-    <p>Welcome to
-      <%= title %>! How are you feeling today?</p>
-    <button class='uk-button' type='button' id='btn1'><span class="emoji">😄</span> Happy</button>
-    <button class='uk-button' type='button' id='btn2'><span class="emoji">😐</span> Neutral</button>
-    <button class='uk-button' type='button' id='btn3'><span class="emoji">😢</span> Sad</button>
+    <div class="fade">
+      <p>Welcome to this domain,
+        <%= title %>! How are you feeling today?</p>
+      <button class='uk-button' type='button' id='btn1'><span class="emoji">😄</span> Happy</button>
+      <button class='uk-button' type='button' id='btn2'><span class="emoji">😐</span> Meh</button>
+      <button class='uk-button' type='button' id='btn3'><span class="emoji">😢</span> Sad</button>
+    </div>
   </div><br><br>
 
   <div id='chat' class='splash' style='display:none'>
