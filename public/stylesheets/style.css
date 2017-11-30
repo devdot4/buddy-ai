@@ -7,9 +7,13 @@ a {
   color: #00B7FF;
 }
 
+/* main title */
+
 .splash {
   text-align: center;
 }
+
+/* question emoji */
 
 .emoji {
   font-size: 30px;

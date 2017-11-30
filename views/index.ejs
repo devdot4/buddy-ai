@@ -8,16 +8,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="bud;Dy is a helpful companion.">
   <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32" />
+  <!-- stylesheets -->
   <link rel='stylesheet' href='/stylesheets/uikit.min.css' />
   <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 
 <body>
-
+  <!-- main title -->
   <div class='splash'>
     <h1><%= title %></h1>
   </div>
-
+  <!-- mood question -->
   <div id='mood' class='splash' style='display:show'>
     <div class="fade">
       <p>Welcome to this domain,
@@ -27,13 +28,13 @@
       <button class='uk-button' type='button' id='btn3'><span class="emoji">😢</span> Sad</button>
     </div>
   </div><br><br>
-
+  <!-- buddy input -->
   <div id='chat' class='splash' style='display:none'>
     <p>Type what you must...</p><br>
     <input class='uk-search' type='text' name='' value='write here'><br><br>
     <button class='uk-button uk-button-primary' type='button' name='button'>Send</button>
   </div>
-
+  <!-- javascripts -->
   <script src='/javascripts/jquery-3.2.1.min.js'></script>
   <script src='/javascripts/uikit.min.js'></script>
   <script src='/javascripts/uikit-icons.min.js'></script>
