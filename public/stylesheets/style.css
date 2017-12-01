@@ -5,6 +5,7 @@ body {
 
 a {
   color: #00B7FF;
+  text-decoration: none !important;
 }
 
 /* :D */
@@ -32,10 +33,4 @@ a {
 
 .mood {
   width: 30px;
-}
-
-/* main title */
-
-.splash {
-  text-align: center;
 }
