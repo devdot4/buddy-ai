@@ -7,16 +7,25 @@ a {
   color: #00B7FF;
 }
 
+/* :D */
+
+#buddy {
+  width: 50px;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+/* mood smileys */
+
+.mood {
+  width: 30px;
+}
+
 /* main title */
 
 .splash {
   text-align: center;
-}
-
-/* question emoji */
-
-.emoji {
-  font-size: 30px;
-  vertical-align: middle;
-  line-height: 2;
 }
