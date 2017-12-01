@@ -7,12 +7,35 @@ a {
   color: #00B7FF;
 }
 
-.splash {
-  text-align: center;
+/* :D */
+
+#buddy {
+  width: 50px;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
 }
 
-.emoji {
-  font-size: 30px;
-  vertical-align: middle;
-  line-height: 2;
+/* buddy chat placeholder */
+
+#list {
+  list-style-type: none;
+}
+
+.ai-log {
+  color: orange;
+}
+
+/* mood smileys */
+
+.mood {
+  width: 30px;
+}
+
+/* main title */
+
+.splash {
+  text-align: center;
 }

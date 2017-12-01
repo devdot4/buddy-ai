@@ -3,37 +3,43 @@
 
 <head>
   <meta charset="utf-8">
-  <title><%= title %></title>
+  <title>
+    <%= title %>
+  </title>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="bud;Dy is a helpful companion.">
   <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32" />
+  <!-- stylesheets -->
   <link rel='stylesheet' href='/stylesheets/uikit.min.css' />
   <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 
 <body>
-
+  <!-- main title -->
   <div class='splash'>
-    <h1><%= title %></h1>
+    <h1>bud <img id="buddy" src="images/1f600.png" alt=""> y</h1>
   </div>
-
+  <!-- mood question -->
   <div id='mood' class='splash' style='display:show'>
     <div class="fade">
-      <p>Welcome to this domain,
-        <%= title %>! How are you feeling today?</p>
-      <button class='uk-button' type='button' id='btn1'><span class="emoji">😄</span> Happy</button>
-      <button class='uk-button' type='button' id='btn2'><span class="emoji">😐</span> Meh</button>
-      <button class='uk-button' type='button' id='btn3'><span class="emoji">😢</span> Sad</button>
+      <p>Welcome to this domain, friend! How are you feeling today?</p>
+      <button class='uk-button' type='button' id='btn1'><img class='mood' src="images/1f604.png" alt=""> Happy </button>
+      <button class='uk-button' type='button' id='btn2'> <img class='mood' src="images/1f610.png" alt=""> Meh </button>
+      <button class='uk-button' type='button' id='btn3'> <img class='mood' src="images/1f622.png" alt=""> Sad </button>
     </div>
-  </div><br><br>
-
+  </div><br/><br/>
+  <!-- chat -->
   <div id='chat' class='splash' style='display:none'>
-    <p>Type what you must...</p><br>
-    <input class='uk-search' type='text' name='' value='write here'><br><br>
-    <button class='uk-button uk-button-primary' type='button' name='button'>Send</button>
+    <!-- chat log -->
+    <ul id='list'>
+      <li><span class='ai-log'>buddy-ai</span><br/> talk to me...</li>
+    </ul>
+    <!-- user input -->
+    <input class='uk-search' id='idea' type='text' placeholder='write here'>
+    <button id='add' name='button'>say</button>
   </div>
-
+  <!-- javascripts -->
   <script src='/javascripts/jquery-3.2.1.min.js'></script>
   <script src='/javascripts/uikit.min.js'></script>
   <script src='/javascripts/uikit-icons.min.js'></script>
