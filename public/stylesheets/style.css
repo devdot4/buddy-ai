@@ -18,6 +18,16 @@ a {
   transform: rotate(270deg);
 }
 
+/* buddy chat placeholder */
+
+#list {
+  list-style-type: none;
+}
+
+.ai-log {
+  color: orange;
+}
+
 /* mood smileys */
 
 .mood {
