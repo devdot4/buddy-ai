@@ -44,11 +44,23 @@
     </div>
   </div>
   <!-- javascripts -->
+  <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
   <script src='/javascripts/jquery-3.2.1.min.js'></script>
   <script src='/javascripts/uikit.min.js'></script>
   <script src='/javascripts/uikit-icons.min.js'></script>
   <script src='/javascripts/script.js'></script>
-
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDplQRPKd4uZ-ewUp1h1sc6qKxEJJ5cZwk",
+      authDomain: "buddy-ai-66f39.firebaseapp.com",
+      databaseURL: "https://buddy-ai-66f39.firebaseio.com",
+      projectId: "buddy-ai-66f39",
+      storageBucket: "",
+      messagingSenderId: "91711448664"
+    };
+    firebase.initializeApp(config);
+  </script>
 </body>
 
 </html>
