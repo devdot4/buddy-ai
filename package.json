@@ -16,7 +16,7 @@
     "express": "^4.16.2",
     "express-vue": "^4.0.14",
     "morgan": "^1.9.0",
-    "serve-favicon": "^2.4.5"
+    "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
     "babel-preset-env": "^1.6.1"
