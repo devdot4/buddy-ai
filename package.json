@@ -4,7 +4,9 @@
   "author": "Mike Ahmedov",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -16,9 +18,11 @@
     "express": "^4.16.2",
     "express-vue": "^4.0.14",
     "morgan": "^1.9.0",
-    "serve-favicon": "^2.4.5"
+    "serve-favicon": "^2.4.5",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "babel-preset-env": "^1.6.1"
-  }
+  },
+  "snyk": true
 }
